@@ -15,24 +15,26 @@ $filas = mysqli_fetch_array($resultado);
 
 if($filas["rol_id"]==1 ){ //administrador
 
-    header("location: administrador.html");
+    header("location: http://localhost/GOFASTAPPV1.1/frontend/view/administrador.html");
 }else
 
 if($filas["rol_id"]==2 ){ //agente
 
-    header("location: http://localhost/GOFASTAPPV1.1/registrar/agente.html");
+    header("location: http://localhost/GOFASTAPPV1.1/frontend/view/agente.html");
 }else
 if($filas["rol_id"]==3 ){ //tienda
 
-    header("location: tienda.html");
+    header("location: http://localhost/GOFASTAPPV1.1/frontend/view/tienda.html");
 }else{
     ?>
     <?php
 
+
+
     include("index.php");
-    include("admistrador.php");
-    include("agente.html");
-    include("tienda.html");
+    /*include("frontend/view/admistrador.php");
+    include("frontend/view/agente.html");
+    include("frontend/view/tienda.html");*/
     ?>
 <h1>error</h1>
 

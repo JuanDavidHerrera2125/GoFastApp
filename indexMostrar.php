@@ -28,7 +28,10 @@
 
     <h1>Usuarios Registrados</h1>
     <?php
-    include 'view/mostrar.php'; // Incluye el script PHP que muestra la tabla de usuarios
-    ?>
+    
+    // Ruta correcta al archivo que se desea incluir 
+    include __DIR__ . '/mostrar.php';
+    ?> 
+  
 </body>
 </html>

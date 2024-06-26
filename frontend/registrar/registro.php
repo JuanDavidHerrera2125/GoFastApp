@@ -1,6 +1,6 @@
 <?php
 
-include("conexion.php");
+include 'C:\xampp\htdocs\GOFASTAPPV1.1\backend\conexion\conexion.php';
 
 if (isset($_POST['register'])) {
 

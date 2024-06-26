@@ -7,7 +7,7 @@
 </head>
 <body>
 <h2>Iniciar Sesión</h2>
-    <form action="validar.php" method="post">
+    <form action="backend/validar/validar.php" method="post">
         <label for="usuario">Usuario:</label>
         <input type="text" id="usuario" name="usuario" required><br><br>
         
@@ -17,7 +17,7 @@
         <button type="submit">Iniciar Sesión</button>
     </form><br><br>
 
-    <form action="indexRegistrar.php" method="get">
+    <form action="frontend/registrar/indexRegistrar.php" method="get">
         <input type="submit" value="Registrarse">
     </form><br><br>
 </body>

@@ -85,11 +85,9 @@
 </form>
 
 <?php
-
-include("registro.php");
-//include ('mostrar.php');
-
+// Ruta correcta al archivo que se desea incluir
+include __DIR__ . '/registro.php';
 ?>
-    
+
 </body>
 </html>  
