@@ -20,11 +20,11 @@ if($filas["rol_id"]==1 ){ //administrador
 
 if($filas["rol_id"]==2 ){ //agente
 
-    header("location: agente.html");
+    header("location: http://localhost/GOFASTAPPV1.1/registrar/agente.html");
 }else
 if($filas["rol_id"]==3 ){ //tienda
 
-    header("location:view\roles\tienda.html");
+    header("location: tienda.html");
 }else{
     ?>
     <?php
