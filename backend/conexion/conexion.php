@@ -1,7 +1,7 @@
 <?php
 
 // Conexión a la base de datos
-    $conex = new mysqli("localhost", "root", "", "gofastappv1.1");
+$conex = new mysqli("localhost", "root", "", "gofastappv1.1");
 
 // Verificar errores de conexión
 if ($conex->connect_error) {
